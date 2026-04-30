@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: black url('imagens/fundo-madeira.jpg') center center no-repeat fixed;
+  background-size: cover;
+}
+
+#iphone {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+img:hover {
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.7);
+}
+
+ul {
+  text-align: right;
+  list-style-type: none;
+}
