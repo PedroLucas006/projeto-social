@@ -25,7 +25,7 @@ body {
   height: 627px;
 }
 
-iframe {
+#tela {
   position: relative;
   left: 22px;
   top: 80px;
@@ -40,7 +40,7 @@ nav img {
   margin: 10px;
 }
 
-img:hover {
+nav img:hover {
   box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.7);
 }
 

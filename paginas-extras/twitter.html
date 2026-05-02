@@ -5,18 +5,60 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Projeto Redes Sociais</title>
     <style>
+    
     * {
       margin: 0px;
       padding: 0px;
     }
+    
     body {
-      background: black url('../imagens/tela-twitter.jpg') no-repeat top center;
-      background-size: cover;
+      background-color: black;
       width: 100vw;
       height: 100vh;
+      font-family: Arial, Helvetica, Sans-Serif;
     }
+    
+    #rede-social-tela {
+      height: 100%;
+      width: 100%;
+    }
+    
+    #acesso {
+      text-transform: uppercase;
+      background-color: darkred;
+      color: white;
+      width: 269px;
+      text-align: center;
+      font-weight: bold;
+      padding: 20px 0px;
+      display: block;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      background-color: red;
+    }
+    
+    a:active {
+      background-color: red;
+    }
+    
     </style>
 </head>
 <body>
+  <main>
+    
+    <section>
+    <img src="../imagens/tela-twitter.jpg" id="rede-social-tela">
+    </section>
+    
+    <section>
+      <a href="https://x.com/guanabara/" rel="external" target="_blank" id="acesso">Acesse</a>
+    </section>
+    
+  </main>
 </body>
 </html>
